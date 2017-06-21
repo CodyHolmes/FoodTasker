@@ -129,4 +129,4 @@ MEDIA_URL = '/media/'
 
 import dj_database_url
 db_from_env = dj_database_url.config()
-DATABASE['default'].update(db_from_env)
+DATABASES['default'].update(db_from_env)

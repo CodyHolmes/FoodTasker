@@ -2,6 +2,6 @@ Django==1.10
 gunicorn==19.6.0
 olefile==0.44
 Pillow==4.1.1
-whitenoise-3.2.1
-dj-database-url-0.4.2
-psycopg==2.6.2
+whitenoise==3.2.1
+dj-database-url==0.4.2
+psycopg2==2.6.2
